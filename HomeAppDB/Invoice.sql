@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[Invoice]
+(
+	[invoiceId] INT NOT NULL PRIMARY KEY, 
+    [serviceDate] DATETIME NOT NULL, 
+    [invoiceDate] DATETIME NOT NULL, 
+    [customerId] INT NOT NULL, 
+    [propertyId] INT NOT NULL, 
+    [technicianId] INT NOT NULL, 
+    [serviceCharge] DECIMAL(19, 2) NULL, 
+    [labour] DECIMAL(19, 2) NULL, 
+    [partTotal] DECIMAL(19, 2) NULL, 
+    [subTotal] DECIMAL(19, 2) NOT NULL, 
+    [chargeHST] TINYINT NULL, 
+    [HST] DECIMAL(19, 2) NULL, 
+    [grossTotal] DECIMAL(19, 2) NOT NULL, 
+    [complaints] VARCHAR(250) NULL, 
+    [notes] VARCHAR(250) NULL, 
+    [poNumber] VARCHAR(40) NULL, 
+    [make] VARCHAR(30) NULL,
+	[model] VARCHAR(30) NULL, 
+	[serialNumber] VARCHAR(30) NULL, 
+    CONSTRAINT [FK_Invoice_Customer] FOREIGN KEY (customerId) REFERENCES [Customer](customerId), 
+    CONSTRAINT [FK_Invoice_Property] FOREIGN KEY (propertyId) REFERENCES [Property](propertyId), 
+    CONSTRAINT [FK_Invoice_Technicain] FOREIGN KEY (technicianId) REFERENCES [Technician](technicianId)
+)

@@ -1,11 +1,11 @@
 ﻿CREATE TABLE [dbo].[Customer]
 (
-	[CustomerId] INT NOT NULL PRIMARY KEY DEFAULT 0, 
+	[customerId] INT NOT NULL PRIMARY KEY DEFAULT 0, 
     [companyName] VARCHAR(50) NULL, 
     [firstName] VARCHAR(20) NOT NULL, 
     [lastName] VARCHAR(20) NOT NULL, 
-    [contactName] VARCHAR(20) NOT NULL, 
-    [contactPhone] INT NULL, 
+    [contactName] VARCHAR(20) NULL, 
+    [contactPhone] INT NOT NULL, 
     [contactMobile] INT NULL, 
     [fax] INT NULL, 
     [bussinessPhone] INT NULL, 
