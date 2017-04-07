@@ -71,10 +71,4 @@
     <Build Include="City.sql" />
     <Build Include="Taxes.sql" />
   </ItemGroup>
-  <ItemGroup>
-    <RefactorLog Include="HomeAppDB.refactorlog" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="HomeAppDB.publish.xml" />
-  </ItemGroup>
 </Project>

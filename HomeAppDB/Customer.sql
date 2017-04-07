@@ -23,5 +23,6 @@
     [DateActive] DATE NULL DEFAULT 0000-00-00, 
     [DateModified] DATE NULL DEFAULT 0000-00-00, 
 	[contactEmail] VARCHAR(100) NULL DEFAULT '', 
-    CONSTRAINT [FK_Customer_City] FOREIGN KEY (cityId) REFERENCES [city](cityId)
+    CONSTRAINT [FK_Customer_City_01] FOREIGN KEY (cityId_01) REFERENCES [City](cityId),
+	CONSTRAINT [FK_Customer_City_02] FOREIGN KEY (cityId_02) REFERENCES [City](cityId)
 )

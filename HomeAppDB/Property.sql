@@ -11,5 +11,5 @@
     [DateActive] DATE NULL DEFAULT 0000-00-00, 
     [DateModified] DATE NULL DEFAULT 0000-00-00, 
     CONSTRAINT [FK_Property_Customer] FOREIGN KEY ([customerId]) REFERENCES [Customer]([customerId]), 
-    CONSTRAINT [FK_Property_City] FOREIGN KEY ([cityId]) REFERENCES [city]([cityId]) 
+    CONSTRAINT [FK_Property_City] FOREIGN KEY ([cityId]) REFERENCES [City]([cityId]) 
 )
