@@ -68,6 +68,8 @@
     <Build Include="Part.sql" />
     <Build Include="Category.sql" />
     <Build Include="Finacial.sql" />
+    <Build Include="City.sql" />
+    <Build Include="Taxes.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="HomeAppDB.refactorlog" />

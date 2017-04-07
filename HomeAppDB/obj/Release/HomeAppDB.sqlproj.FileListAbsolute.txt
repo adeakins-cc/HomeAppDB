@@ -1,14 +1,7 @@
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\HomeAppDB\HomeAppDB\bin\Release\HomeAppDB.dacpac
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\HomeAppDB\HomeAppDB\bin\Release\HomeAppDB.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\HomeAppDB\HomeAppDB\bin\Release\HomeAppDB.pdb
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\HomeAppDB\HomeAppDB\obj\Release\Model.xml
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\HomeAppDB\HomeAppDB\obj\Release\refactor.xml
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\HomeAppDB\HomeAppDB\obj\Release\postdeploy.sql
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\HomeAppDB\HomeAppDB\obj\Release\predeploy.sql
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\HomeAppDB\HomeAppDB\obj\Release\HomeAppDB.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\HomeAppDB\HomeAppDB\obj\Release\HomeAppDB.pdb
-C:\Users\adeakins-cc\HomeAppDB\HomeAppDB\bin\Release\HomeAppDB.dacpac
-C:\Users\adeakins-cc\HomeAppDB\HomeAppDB\bin\Release\HomeAppDB.dll
-C:\Users\adeakins-cc\HomeAppDB\HomeAppDB\bin\Release\HomeAppDB.pdb
-C:\Users\adeakins-cc\HomeAppDB\HomeAppDB\obj\Release\HomeAppDB.dll
-C:\Users\adeakins-cc\HomeAppDB\HomeAppDB\obj\Release\HomeAppDB.pdb
+C:\Users\Alexa\Documents\GitHub\HomeAppDB\HomeAppDB\bin\Release\HomeAppDB.dacpac
+C:\Users\Alexa\Documents\GitHub\HomeAppDB\HomeAppDB\obj\Release\Model.xml
+C:\Users\Alexa\Documents\GitHub\HomeAppDB\HomeAppDB\obj\Release\refactor.xml
+C:\Users\Alexa\Documents\GitHub\HomeAppDB\HomeAppDB\obj\Release\postdeploy.sql
+C:\Users\Alexa\Documents\GitHub\HomeAppDB\HomeAppDB\obj\Release\predeploy.sql
+C:\Users\Alexa\Documents\GitHub\HomeAppDB\HomeAppDB\obj\Release\HomeAppDB.dll
+C:\Users\Alexa\Documents\GitHub\HomeAppDB\HomeAppDB\obj\Release\HomeAppDB.pdb
