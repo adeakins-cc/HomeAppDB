@@ -40,36 +40,12 @@ USE [$(DatabaseName)];
 
 
 GO
-PRINT N'Dropping unnamed constraint on [dbo].[Category]...';
-
-
-GO
-ALTER TABLE [dbo].[Category] DROP CONSTRAINT [DF__Category__catego__3D5E1FD2];
-
-
-GO
-PRINT N'Dropping unnamed constraint on [dbo].[City]...';
-
-
-GO
-ALTER TABLE [dbo].[City] DROP CONSTRAINT [DF__City__cityId__3E52440B];
-
-
-GO
-PRINT N'Dropping unnamed constraint on [dbo].[Customer]...';
-
-
-GO
-ALTER TABLE [dbo].[Customer] DROP CONSTRAINT [DF__Customer__contac__3F466844];
-
-
-GO
 PRINT N'Creating unnamed constraint on [dbo].[Category]...';
 
 
 GO
 ALTER TABLE [dbo].[Category]
-    ADD DEFAULT 00000 FOR [categoryId];
+    ADD DEFAULT '' FOR [name];
 
 
 GO
@@ -78,16 +54,25 @@ PRINT N'Creating unnamed constraint on [dbo].[City]...';
 
 GO
 ALTER TABLE [dbo].[City]
-    ADD DEFAULT 00000 FOR [cityId];
+    ADD DEFAULT '' FOR [name];
 
 
 GO
-PRINT N'Creating unnamed constraint on [dbo].[Customer]...';
+PRINT N'Creating unnamed constraint on [dbo].[City]...';
 
 
 GO
-ALTER TABLE [dbo].[Customer]
-    ADD DEFAULT 0000000000 FOR [contactMobile];
+ALTER TABLE [dbo].[City]
+    ADD DEFAULT 'ON' FOR [province];
+
+
+GO
+PRINT N'Creating unnamed constraint on [dbo].[City]...';
+
+
+GO
+ALTER TABLE [dbo].[City]
+    ADD DEFAULT 'CANADA' FOR [counrty];
 
 
 GO
@@ -123,7 +108,7 @@ PRINT N'Creating unnamed constraint on [dbo].[Finacial]...';
 
 GO
 ALTER TABLE [dbo].[Finacial]
-    ADD DEFAULT 00000 FOR [finacialId];
+    ADD DEFAULT 0 FOR [finacialId];
 
 
 GO
@@ -132,7 +117,7 @@ PRINT N'Creating unnamed constraint on [dbo].[Finacial]...';
 
 GO
 ALTER TABLE [dbo].[Finacial]
-    ADD DEFAULT 00000 FOR [invoiceId];
+    ADD DEFAULT 0 FOR [invoiceId];
 
 
 GO
@@ -213,7 +198,7 @@ PRINT N'Creating unnamed constraint on [dbo].[Invoice]...';
 
 GO
 ALTER TABLE [dbo].[Invoice]
-    ADD DEFAULT 00000 FOR [invoiceId];
+    ADD DEFAULT 0 FOR [invoiceId];
 
 
 GO
@@ -240,7 +225,7 @@ PRINT N'Creating unnamed constraint on [dbo].[Invoice]...';
 
 GO
 ALTER TABLE [dbo].[Invoice]
-    ADD DEFAULT 00000 FOR [customerId];
+    ADD DEFAULT 0 FOR [customerId];
 
 
 GO
@@ -249,7 +234,7 @@ PRINT N'Creating unnamed constraint on [dbo].[Invoice]...';
 
 GO
 ALTER TABLE [dbo].[Invoice]
-    ADD DEFAULT 00000 FOR [propertyId];
+    ADD DEFAULT 0 FOR [propertyId];
 
 
 GO
@@ -393,7 +378,7 @@ PRINT N'Creating unnamed constraint on [dbo].[Part]...';
 
 GO
 ALTER TABLE [dbo].[Part]
-    ADD DEFAULT 00000 FOR [partId];
+    ADD DEFAULT 0 FOR [partId];
 
 
 GO
@@ -402,7 +387,7 @@ PRINT N'Creating unnamed constraint on [dbo].[Part]...';
 
 GO
 ALTER TABLE [dbo].[Part]
-    ADD DEFAULT 00000 FOR [categoryId];
+    ADD DEFAULT 0 FOR [categoryId];
 
 
 GO
@@ -429,7 +414,7 @@ PRINT N'Creating unnamed constraint on [dbo].[PartsUsed]...';
 
 GO
 ALTER TABLE [dbo].[PartsUsed]
-    ADD DEFAULT 00000 FOR [partListId];
+    ADD DEFAULT 0 FOR [partListId];
 
 
 GO
@@ -438,7 +423,7 @@ PRINT N'Creating unnamed constraint on [dbo].[PartsUsed]...';
 
 GO
 ALTER TABLE [dbo].[PartsUsed]
-    ADD DEFAULT 00000 FOR [invoiceId];
+    ADD DEFAULT 0 FOR [invoiceId];
 
 
 GO
@@ -447,7 +432,7 @@ PRINT N'Creating unnamed constraint on [dbo].[PartsUsed]...';
 
 GO
 ALTER TABLE [dbo].[PartsUsed]
-    ADD DEFAULT 00000 FOR [partId];
+    ADD DEFAULT 0 FOR [partId];
 
 
 GO
@@ -483,7 +468,7 @@ PRINT N'Creating unnamed constraint on [dbo].[Property]...';
 
 GO
 ALTER TABLE [dbo].[Property]
-    ADD DEFAULT 00000 FOR [propertyId];
+    ADD DEFAULT 0 FOR [propertyId];
 
 
 GO
@@ -492,7 +477,7 @@ PRINT N'Creating unnamed constraint on [dbo].[Property]...';
 
 GO
 ALTER TABLE [dbo].[Property]
-    ADD DEFAULT 00000 FOR [customerId];
+    ADD DEFAULT 0 FOR [customerId];
 
 
 GO
@@ -528,7 +513,7 @@ PRINT N'Creating unnamed constraint on [dbo].[Property]...';
 
 GO
 ALTER TABLE [dbo].[Property]
-    ADD DEFAULT 00000 FOR [cityId];
+    ADD DEFAULT 0 FOR [cityId];
 
 
 GO
@@ -546,7 +531,7 @@ PRINT N'Creating unnamed constraint on [dbo].[Property]...';
 
 GO
 ALTER TABLE [dbo].[Property]
-    ADD DEFAULT 0000000000 FOR [superintendentPhone];
+    ADD DEFAULT 0 FOR [superintendentPhone];
 
 
 GO
@@ -568,12 +553,39 @@ ALTER TABLE [dbo].[Property]
 
 
 GO
+PRINT N'Creating unnamed constraint on [dbo].[Taxes]...';
+
+
+GO
+ALTER TABLE [dbo].[Taxes]
+    ADD DEFAULT 0 FOR [taxId];
+
+
+GO
+PRINT N'Creating unnamed constraint on [dbo].[Taxes]...';
+
+
+GO
+ALTER TABLE [dbo].[Taxes]
+    ADD DEFAULT '' FOR [name];
+
+
+GO
+PRINT N'Creating unnamed constraint on [dbo].[Taxes]...';
+
+
+GO
+ALTER TABLE [dbo].[Taxes]
+    ADD DEFAULT 0 FOR [rate];
+
+
+GO
 PRINT N'Creating unnamed constraint on [dbo].[Technician]...';
 
 
 GO
 ALTER TABLE [dbo].[Technician]
-    ADD DEFAULT 00000 FOR [technicianId];
+    ADD DEFAULT 0 FOR [technicianId];
 
 
 GO

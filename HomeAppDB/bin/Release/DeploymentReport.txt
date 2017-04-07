@@ -9,17 +9,14 @@
        None
 
 ** User actions
-     Drop
-       unnamed constraint on [dbo].[Category] (Default Constraint)
-       unnamed constraint on [dbo].[City] (Default Constraint)
-       unnamed constraint on [dbo].[Customer] (Default Constraint)
      Create
        Default Constraint: unnamed constraint on [dbo].[Category] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[City] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[City] (Default Constraint)
        Default Constraint: unnamed constraint on [dbo].[City] (Default Constraint)
        Default Constraint: unnamed constraint on [dbo].[Customer] (Default Constraint)
        Default Constraint: unnamed constraint on [dbo].[Customer] (Default Constraint)
        Default Constraint: unnamed constraint on [dbo].[Customer] (Default Constraint)
-       Default Constraint: unnamed constraint on [dbo].[Customer] (Default Constraint)
        Default Constraint: unnamed constraint on [dbo].[Finacial] (Default Constraint)
        Default Constraint: unnamed constraint on [dbo].[Finacial] (Default Constraint)
        Default Constraint: unnamed constraint on [dbo].[Finacial] (Default Constraint)
@@ -70,6 +67,9 @@
        Default Constraint: unnamed constraint on [dbo].[Property] (Default Constraint)
        Default Constraint: unnamed constraint on [dbo].[Property] (Default Constraint)
        Default Constraint: unnamed constraint on [dbo].[Property] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Taxes] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Taxes] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Taxes] (Default Constraint)
        Default Constraint: unnamed constraint on [dbo].[Technician] (Default Constraint)
        Default Constraint: unnamed constraint on [dbo].[Technician] (Default Constraint)
        [dbo].[FK_Customer_City_01] (Foreign Key)

@@ -60,15 +60,17 @@
     <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Property.sql" />
-    <Build Include="Customer.sql" />
-    <Build Include="Technician.sql" />
-    <Build Include="Invoice.sql" />
-    <Build Include="PartList.sql" />
-    <Build Include="Part.sql" />
-    <Build Include="Category.sql" />
-    <Build Include="Finacial.sql" />
-    <Build Include="City.sql" />
-    <Build Include="Taxes.sql" />
+    <Build Include="Scripts\Category.sql" />
+    <Build Include="Scripts\City.sql" />
+    <Build Include="Scripts\Customer.sql" />
+    <Build Include="Scripts\Finacial.sql" />
+    <Build Include="Scripts\Invoice.sql" />
+    <Build Include="Scripts\Part.sql" />
+    <Build Include="Scripts\PartList.sql" />
+    <Build Include="Scripts\Property.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Scripts\Taxes.sql" />
+    <Build Include="Scripts\Technician.sql" />
   </ItemGroup>
 </Project>

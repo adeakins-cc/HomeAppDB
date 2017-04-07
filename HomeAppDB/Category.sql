@@ -1,5 +1,0 @@
-﻿CREATE TABLE [dbo].[Category]
-(
-	[categoryId] INT NOT NULL PRIMARY KEY DEFAULT 00000, 
-    [name] VARCHAR(40) NOT NULL DEFAULT '' 
-)
