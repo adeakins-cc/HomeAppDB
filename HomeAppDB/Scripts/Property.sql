@@ -7,7 +7,7 @@
     [streetName] VARCHAR(50) NOT NULL DEFAULT '', 
     [cityId] INT NOT NULL DEFAULT 0, 
     [superintendent] VARCHAR(25) NULL DEFAULT '', 
-    [superintendentPhone] BIGINT NULL DEFAULT 0, 
+    [superintendentPhone] VARCHAR(15) NULL DEFAULT '', 
     [DateActive] DATE NULL DEFAULT GETDATE(), 
     [DateModified] DATE NULL DEFAULT GETDATE(), 
     CONSTRAINT [FK_Property_Customer] FOREIGN KEY ([customerId]) REFERENCES [Customer]([customerId]), 
