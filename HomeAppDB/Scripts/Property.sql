@@ -2,8 +2,8 @@
 (
 	[propertyId] INT NOT NULL PRIMARY KEY , 
     [customerId] INT NOT NULL DEFAULT 0, 
-    [unitNumber] INT NULL DEFAULT 0 , 
-    [streetNumber] INT NOT NULL DEFAULT 0, 
+    [unitNumber] VARCHAR(10) NULL DEFAULT 0 , 
+    [streetNumber] VARCHAR(10) NOT NULL DEFAULT 0, 
     [streetName] VARCHAR(50) NOT NULL DEFAULT '', 
     [cityId] INT NOT NULL DEFAULT 0, 
     [superintendent] VARCHAR(25) NULL DEFAULT '', 
