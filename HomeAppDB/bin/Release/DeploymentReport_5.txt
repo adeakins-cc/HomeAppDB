@@ -1,0 +1,51 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Customer]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Customer].[contactPhone] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+       unnamed constraint on [dbo].[Customer] (Default Constraint)
+     Table rebuild
+       [dbo].[Customer] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Customer_City_01] (Foreign Key)
+       [dbo].[FK_Customer_City_02] (Foreign Key)
+       [dbo].[FK_Invoice_Customer] (Foreign Key)
+       [dbo].[FK_Property_Customer] (Foreign Key)
+     Create
+       [dbo].[FK_Customer_City_01] (Foreign Key)
+       [dbo].[FK_Customer_City_02] (Foreign Key)
+       [dbo].[FK_Invoice_Customer] (Foreign Key)
+       [dbo].[FK_Property_Customer] (Foreign Key)
+
+The column [dbo].[Customer].[contactPhone] is being dropped, data loss could occur.
+

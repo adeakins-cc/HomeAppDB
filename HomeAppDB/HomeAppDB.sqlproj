@@ -73,4 +73,7 @@
     <Build Include="Scripts\Taxes.sql" />
     <Build Include="Scripts\Technician.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="HomeAppDB.refactorlog" />
+  </ItemGroup>
 </Project>

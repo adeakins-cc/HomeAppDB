@@ -1,0 +1,50 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Invoice]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Invoice].[chargeGST] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+       unnamed constraint on [dbo].[Invoice] (Default Constraint)
+     Table rebuild
+       [dbo].[Invoice] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Finance_Invoice] (Foreign Key)
+       [dbo].[FK_Invoice_Property] (Foreign Key)
+       [dbo].[FK_Invoice_Technicain] (Foreign Key)
+       [dbo].[FK_Invoice_Customer] (Foreign Key)
+       [dbo].[FK_PartList_Invoice] (Foreign Key)
+     Create
+       [dbo].[FK_Finance_Invoice] (Foreign Key)
+       [dbo].[FK_Invoice_Property] (Foreign Key)
+       [dbo].[FK_Invoice_Technicain] (Foreign Key)
+       [dbo].[FK_Invoice_Customer] (Foreign Key)
+       [dbo].[FK_PartList_Invoice] (Foreign Key)
+
+The column [dbo].[Invoice].[chargeGST] is being dropped, data loss could occur.
+
