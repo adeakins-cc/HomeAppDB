@@ -7,3 +7,8 @@ G:\HomeAppDB\HomeAppDB\obj\Release\Model.xml
 G:\HomeAppDB\HomeAppDB\obj\Release\refactor.xml
 G:\HomeAppDB\HomeAppDB\obj\Release\postdeploy.sql
 G:\HomeAppDB\HomeAppDB\obj\Release\predeploy.sql
+C:\Users\Alexa\Documents\GitHub\HomeAppDB\HomeAppDB\bin\Release\HomeAppDB.dacpac
+C:\Users\Alexa\Documents\GitHub\HomeAppDB\HomeAppDB\bin\Release\HomeAppDB.dll
+C:\Users\Alexa\Documents\GitHub\HomeAppDB\HomeAppDB\bin\Release\HomeAppDB.pdb
+C:\Users\Alexa\Documents\GitHub\HomeAppDB\HomeAppDB\obj\Release\HomeAppDB.dll
+C:\Users\Alexa\Documents\GitHub\HomeAppDB\HomeAppDB\obj\Release\HomeAppDB.pdb
