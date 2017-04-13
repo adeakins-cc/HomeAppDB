@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[PartsList]
 (
-	[partListId] INT NOT NULL PRIMARY KEY , 
+	[partListId] INT NOT NULL PRIMARY KEY IDENTITY, 
     [invoiceId] INT NOT NULL DEFAULT 0, 
 	[quantity] INT NOT NULL DEFAULT 0, 
     [partId] INT NOT NULL DEFAULT 0, 

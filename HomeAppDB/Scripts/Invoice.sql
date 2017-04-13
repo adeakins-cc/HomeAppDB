@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Invoice]
 (
-	[invoiceId] INT NOT NULL PRIMARY KEY , 
+	[invoiceId] INT NOT NULL PRIMARY KEY IDENTITY(400000, 1), 
     [customerId] INT NOT NULL DEFAULT 0, 
     [propertyId] INT NOT NULL DEFAULT 0, 
     [serviceDate] DATETIME NOT NULL DEFAULT GETDATE(), 

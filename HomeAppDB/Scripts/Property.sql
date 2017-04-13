@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Property]
 (
-	[propertyId] INT NOT NULL PRIMARY KEY , 
+	[propertyId] INT NOT NULL PRIMARY KEY IDENTITY, 
     [customerId] INT NOT NULL DEFAULT 0, 
     [unitNumber] VARCHAR(10) NULL DEFAULT 0 , 
     [streetNumber] VARCHAR(10) NOT NULL DEFAULT 0, 

@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Finacial]
 (
-	[finacialId] INT NOT NULL PRIMARY KEY , 
+	[finacialId] INT NOT NULL PRIMARY KEY IDENTITY, 
     [postDate] DATETIME NOT NULL DEFAULT GETDATE(),
     [invoiceId] INT NOT NULL DEFAULT 0,  
     [totalDue] DECIMAL(19, 2) NOT NULL DEFAULT 0, 
